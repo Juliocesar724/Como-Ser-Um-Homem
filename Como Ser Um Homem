@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bedblin</title> no site Bedblin 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      color: #333;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 20px;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: #e6f0ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bedblin</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#blog">Blog</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Bem-vindo à Bedblin</h2>
+    <p>Excelência, inovação e confiança para o seu negócio. Estamos prontos para transformar sua experiência.</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Produtos</h2>
+    <p>Apresente aqui os principais produtos ou serviços da sua empresa.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>A Bedblin nasceu com o objetivo de entregar qualidade e compromisso em cada solução oferecida.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Fique por dentro das novidades, tendências e dicas com os nossos artigos atualizados.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco pelo e-mail contato@bedblin.com ou nos siga nas redes sociais abaixo.</p>
+  </section>
+
+  <footer>
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p>&copy; 2025 Bedblin. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
